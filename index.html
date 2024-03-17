@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ducat Clone</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid m-3">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="100px" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item me-3 ml-1">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3 ">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item me-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li><a class="dropdown-item" href="#">.Net</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                            <li><a class="dropdown-item" href="#">Web Designing - FullStack Development</a></li>
+                            <li><a class="dropdown-item" href="#">Programming Languages</a></li>
+                            <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+                            <li><a class="dropdown-item" href="#">ServiceNow</a></li>
+                            <li><a class="dropdown-item" href="#">CAD Training</a></li>
+                            <li><a class="dropdown-item" href="#">Networking & Security</a></li>
+                            <li><a class="dropdown-item" href="#">ERP</a></li>
+                            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Online Registration</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Certificate
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Corporate Training</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">
+                            Placements
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Blog
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn p-1.3"
+                        style="background-color:#ffc107de; border-radius: 0.8rem; font-weight:bold; font-size: 0.9rem;"
+                        type="submit">Contact Us</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="ad-slider">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/sldr-3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/sldr-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/sldr-2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="inputbar">
+            <input class="sldr-input" type="text " placeholder="Search Your Favourite Course Today">
+            <button class="sldr-button"><i class="ri-search-line"></i></button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="bluerow">
+            <div class="rowelement">
+                <img src="images/insurance-02.webp" alt="">
+                <p>Learn the <br>Essential Skills</p>
+            </div>
+            <div class="rowelement">
+                <img src="images/insurance-01.webp" alt="">
+                <p>Learn the <br>Essential Skills</p>
+            </div>
+            <div class="rowelement">
+                <img src="images/insurance-04.webp" alt="">
+                <p>Learn the <br>Essential Skills</p>
+            </div>
+            <div class="rowelement">
+                <img src="images/insurance-03.webp" alt="">
+                <p>Learn the <br>Essential Skills</p>
+            </div>
+        </div>
+        <div class="darkbluerow">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+            <input type="text" placeholder="Phone Number" maxlength="10" size="10">
+            <div>
+                <select class="form-control">
+                    <option>Select a Course</option>
+                    <option>CATIA</option>
+                    <option>Flutter</option>
+                    <option>Photography</option>
+                    <option>Cloud </option>
+                    <option>Photography</option>
+                    <option>PMP</option>
+                    <option>videography</option>
+                    <option>VFX</option>
+                    <option>SOLIDWORKS</option>
+                    <option>Service Now</option>
+                    <option>Motion Graphics</option>
+                    <option>business analytics</option>
+                    <option>data analytics</option>
+                    <option>Multimedia &amp; Animation</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>Data Science</option>
+                    <option>Machine Learning</option>
+                    <option>AWS</option>
+                    <option>Azure</option>
+                    <option>Salesforce</option>
+                    <option>Hadoop</option>
+                    <option>Linux</option>
+                    <option>C</option>
+                    <option>Advanced Excel </option>
+                    <option>Salesforce Admin</option>
+                    <option>Salesforce Admin development</option>
+                    <option>C++</option>
+                    <option>S4 Hana Fico</option>
+                    <option>Android</option>
+                    <option>S4 Hana Mm</option>
+                    <option>IOT</option>
+                    <option>S4 Hana Hcm</option>
+                    <option>Devops</option>
+                    <option>IOS</option>
+                    <option>S4 Hana Sd</option>
+                    <option>SAP</option>
+                    <option>Oracle</option>
+                    <option>UI &amp; UX Design</option>
+                    <option>Data science with R</option>
+                    <option>Power BI</option>
+                    <option>Tableau</option>
+                    <option>Cyber Security</option>
+                    <option>Ms SQL</option>
+                    <option>SQL</option>
+                    <option>MIS</option>
+                    <option>AutoCAD</option>
+                    <option>Embedded system</option>
+                    <option>PLC Scada</option>
+                    <option>PHP</option>
+                    <option>Web DESIGNING</option>
+                    <option>UI</option>
+                    <option>React</option>
+                    <option>MERN</option>
+                    <option>Angular</option>
+                    <option>Mean</option>
+                    <option>Graphic Designing</option>
+                    <option>.Net</option>
+                    <option>Testing</option>
+                    <option>CCNA</option>
+                    <option>CCNP</option>
+                    <option>MCSA</option>
+                    <option>Digital Marketing</option>
+                    <option>Ethical Hacking</option>
+                    <option>German Language</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div>
+                <select class="form-control">
+                    <option value="">Select a Branch</option>
+                    <option>Noida Sector 16</option>
+                    <option>Sector 63, Noida</option>
+                    <option>Pitampura</option>
+                    <option>South Ex.</option>
+                    <option>Ghaziabad</option>
+                    <option>Gurugram</option>
+                </select>
+            </div>
+            <button class="btn p-1.3" id="bluerowbtn" type="submit">Submit</button>
+        </div>
+    </div>
+    <div class="explorepro">
+        <h1>Explore Top Programs</h1>
+        <div class="Course-box ">
+            <div class="box">
+                <div class="boximg"><img src="images/box-1.png" alt=""></div>
+                <div class="boxpera">
+                    <p>MIS</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-2.png" alt=""></div>
+                <div class="boxpera">
+                    <p>DIGITAL MARKETING</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-3.png" alt=""></div>
+                <div class="boxpera">
+                    <p>JAVA EXPERT</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="boximg"><img src="images/box-4.png" alt=""></div>
+                <div class="boxpera">
+                    <p>.NET FULL STACK</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-5.png" alt=""></div>
+                <div class="boxpera">
+                    <p>WEB DESIGNING</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-9.png" alt=""></div>
+                <div class="boxpera">
+                    <p>MERN STACK</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-6.png" alt=""></div>
+                <div class="boxpera">
+                    <p>UI & UX</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-7.png" alt=""></div>
+                <div class="boxpera">
+                    <p>MEAN STACK</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boximg"><img src="images/box-8.png" alt=""></div>
+                <div class="boxpera">
+                    <p>DATA ANALYTICS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quote">
+        <h1>Our Learners Work At</h1>
+        <p>Ducat learners work at some of the leading and innovative organizations of <br> today, solving core business
+            problems.</p>
+    </div>
+    <div class="scroll">
+
+        <div class="scrollbar">
+            <img src="images/scroll-1.png" alt="">
+            <img src="images/scroll-2.png" alt="">
+            <img src="images/scroll-3.png" alt="">
+            <img src="images/scroll-4.png" alt="">
+            <img src="images/scroll-5.png" alt="">
+            <img src="images/scroll-6.png" alt="">
+            <img src="images/scroll-7.png" alt="">
+            <img src="images/scroll-8.png" alt="">
+            <img src="images/scroll-9.png" alt="">
+            <img src="images/scroll-10.png" alt="">
+            <img src="images/scroll-11.png" alt="">
+            <img src="images/scroll-12.png" alt="">
+            <img src="images/scroll-13.png" alt="">
+            <img src="images/scroll-14.png" alt="">
+            <img src="images/scroll-15.png" alt="">
+        </div>
+        <div class="scrollbar">
+            <img src="images/scroll-1.png" alt="">
+            <img src="images/scroll-2.png" alt="">
+            <img src="images/scroll-3.png" alt="">
+            <img src="images/scroll-4.png" alt="">
+            <img src="images/scroll-5.png" alt="">
+            <img src="images/scroll-6.png" alt="">
+            <img src="images/scroll-7.png" alt="">
+            <img src="images/scroll-8.png" alt="">
+            <img src="images/scroll-9.png" alt="">
+            <img src="images/scroll-10.png" alt="">
+            <img src="images/scroll-11.png" alt="">
+            <img src="images/scroll-12.png" alt="">
+            <img src="images/scroll-13.png" alt="">
+            <img src="images/scroll-14.png" alt="">
+            <img src="images/scroll-15.png" alt="">
+        </div>
+        <div class="scrollbar">
+            <img src="images/scroll-1.png" alt="">
+            <img src="images/scroll-2.png" alt="">
+            <img src="images/scroll-3.png" alt="">
+            <img src="images/scroll-4.png" alt="">
+            <img src="images/scroll-5.png" alt="">
+            <img src="images/scroll-6.png" alt="">
+            <img src="images/scroll-7.png" alt="">
+            <img src="images/scroll-8.png" alt="">
+            <img src="images/scroll-9.png" alt="">
+            <img src="images/scroll-10.png" alt="">
+            <img src="images/scroll-11.png" alt="">
+            <img src="images/scroll-12.png" alt="">
+            <img src="images/scroll-13.png" alt="">
+            <img src="images/scroll-14.png" alt="">
+            <img src="images/scroll-15.png" alt="">
+        </div>
+
+    </div>
+    <div class="batch">
+        <div class="batchheading">
+            <h1>Upcoming Batches</h1>
+            <h6>Select a Branch</h6>
+        </div>
+        <div class="cards" id="cardsid">
+            <div class="card">
+                <div class="cardimg" id="cardimgid"><img src="images/autocad.png" alt=""></div>
+                <hr>
+                <div class="cardcontant" id="cardcontantid">
+                    <h5>AUTOCAD</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div><br>
+                    <p>Duration : <i>Gurugram</i> <br>
+                        Starting Date: <i>09-03-2024</i></p>
+                </div>
+
+                <button class="btn btn-primary" type="button">Request a call back</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg" id="cardimgid"><img src="images/python.png" alt=""></div>
+                <hr>
+                <div class="cardcontant" id="cardcontantid">
+                    <h5>PYTHON</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div><br>
+                    <p>Duration : <i>Sector 16, Noida</i> <br>
+                        Starting Date: <i>09-03-2024</i></p>
+                </div>
+
+                <button class="btn btn-primary" type="button">Request a call back</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg" id="cardimgid"><img src="images/cyber.png" alt=""></div>
+                <hr>
+                <div class="cardcontant" id="cardcontantid">
+                    <h5>CYBER SECURITY</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div><br>
+                    <p>Duration : <i>GHAZIABAD</i> <br>
+                        Starting Date: <i>09-03-2024</i></p>
+                </div>
+
+                <button class="btn btn-primary" type="button">Request a call back</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg" id="cardimgid"><img src="images/aws.png" alt=""></div>
+                <hr>
+                <div class="cardcontant" id="cardcontantid">
+                    <h5>AWS</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div><br>
+                    <p>Duration : <i>Sector 63, Noida</i> <br>
+                        Starting Date: <i>09-03-2024</i></p>
+                </div>
+
+                <button class="btn btn-primary" type="button">Request a call back</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="f-box">
+            <h1>Hundreds of Happy Students</h1>
+            <p>Several of them where asked how satisfied they are from our courses. Here are the statements</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr1.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Rakesh Rana</h4>
+            <p>Great place to Learn by a good team of faculty.</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr2.png" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Jagriti Shukla</h4>
+            <p>Ducat is one of the recommended institutions which offers best quality of education under the guidance of
+                expert trainer with 100% job guarantee offered to the students.</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr3.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Er R K Singh</h4>
+            <p>Good coaching of it sector and good facilities provide class room and all teacher is very good</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr4.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Sumit Kumar</h4>
+            <p>Ducat is really a very good institute to improve ur skills as Oracle DBA... Anjeet Sir is the best
+                teacher for Oracle...He is very determined and demonstrate the tough to</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr5.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>AbhiShek Singh</h4>
+            <p>DUCAT Noida is one of the best institute for Oracle DBA. All trainers are very polite & cooperative.
+                Specially Mr. Anjeet sir, he is the one who always guided me. He is v</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr6.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Mohammad Saquib</h4>
+            <p>It's an ok institute in a good location. I joined this institute for Linux training.Our Linux trainer
+                Mohammad Asif is doing great job to trained us Linux.</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr7.png" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Jitendra Kumar</h4>
+            <p>I am Jitendra & taking coaching in .Net. Ducat is best coaching institute for .Net Technology & Aslam sir
+                is also very good trainer for .Net.</p>
+        </div>
+        <div class="r-box">
+            <div class="profileimg"><img src="images/pr8.jpg" alt=""></div>
+            <svg width="60" height="60" viewBox="0 0 81 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40.5" cy="40.5" r="40.5" fill="#FFCC00"></circle>
+                <path
+                    d="M19.19 58.16C20.5767 56.1667 22.0933 53.87 23.74 51.27C25.3867 48.5833 26.73 45.5067 27.77 42.04C25.2567 41.6067 23.22 40.6967 21.66 39.31C20.1 37.9233 19.32 35.9733 19.32 33.46C19.32 30.5133 20.1867 28.1733 21.92 26.44C23.6533 24.7067 25.9067 23.84 28.68 23.84C31.4533 23.84 33.6633 24.8367 35.31 26.83C36.9567 28.7367 37.78 30.9467 37.78 33.46C37.78 35.8 37.3033 38.27 36.35 40.87C35.3967 43.47 34.2267 46.0267 32.84 48.54C31.4533 51.0533 29.8933 53.4367 28.16 55.69C26.5133 57.9433 24.9967 59.9367 23.61 61.67L19.19 58.16ZM45.32 58.16C46.7067 56.1667 48.2233 53.87 49.87 51.27C51.5167 48.5833 52.86 45.5067 53.9 42.04C51.3867 41.6067 49.35 40.6967 47.79 39.31C46.23 37.9233 45.45 35.9733 45.45 33.46C45.45 30.5133 46.3167 28.1733 48.05 26.44C49.7833 24.7067 52.0367 23.84 54.81 23.84C57.5833 23.84 59.7933 24.8367 61.44 26.83C63.0867 28.7367 63.91 30.9467 63.91 33.46C63.91 35.8 63.4333 38.27 62.48 40.87C61.5267 43.47 60.3567 46.0267 58.97 48.54C57.5833 51.0533 56.0233 53.4367 54.29 55.69C52.6433 57.9433 51.1267 59.9367 49.74 61.67L45.32 58.16Z"
+                    fill="#1B4584"></path>
+            </svg>
+            <h4>Aaquib</h4>
+            <p>Ducat is one of the best institute for learning any technology in NCR region .
+                Here all the facilities are well experienced and have proper knowledge about the particul</p>
+        </div>
+
+    </div>
+    <div class="rightcourse">
+        <h1>Find the right course for you</h1>
+        <div class="cards">
+
+            <div class="card">
+                <div class="cardimg"><img src="images/box-3.png" alt=""></div>
+                <div class="tag">
+                    <p>Best in Industry</p>
+                </div>
+                <div class="cardcontant">
+                    <h5>JAVA EXPERT</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <h6>Duration : <i>6 months</i> </h6>
+                    <h6>Eligibity: <i> BCA,BSc and B.tech.</i></h6>
+                </div>
+
+                <button class="btn btn-primary" type="button">Download Brochure</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg"><img src="images/box-9.png" alt=""></div>
+                <div class="tag">
+                    <p>Best in Industry</p>
+                </div>
+                <div class="cardcontant">
+                    <h5>MERN STACK</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <h6>Duration : <i>4 months</i> </h6>
+                    <h6>Eligibity: <i>Any Graduate</i></h6>
+                </div>
+
+                <button class="btn btn-primary" type="button">Download Brochure</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg"><img src="images/box-8.png" alt=""></div>
+                <div class="tag">
+                    <p>Best in Industry</p>
+                </div>
+                <div class="cardcontant">
+                    <h5>DATA ANALYTICS</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <h6>Duration : <i>5 months</i> </h6>
+                    <h6>Eligibity: <i>Any Graduate</i></h6>
+                </div>
+
+                <button class="btn btn-primary" type="button">Download Brochure</button>
+
+            </div>
+            <div class="card">
+                <div class="cardimg"><img src="images/cyber.png" alt=""></div>
+                <div class="tag">
+                    <p>Best in Industry</p>
+                </div>
+                <div class="cardcontant">
+                    <h5>CYBER SECURITY</h5>
+                    <div class="stars">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                    </div>
+                    <h6>Duration : <i>2.5 months</i> </h6>
+                    <h6>Eligibity: <i>require a bachelor's in IT/CS/STEM</i></h6>
+                </div>
+
+                <button class="btn btn-primary" type="button">Download Brochure</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="placementpartner">
+        <h1>Our Placement Partners</h1>
+        <div class="scroll">
+
+            <div class="scrollbar">
+                <img src="images/scroll-1.png" alt="">
+                <img src="images/scroll-2.png" alt="">
+                <img src="images/scroll-3.png" alt="">
+                <img src="images/scroll-4.png" alt="">
+                <img src="images/scroll-5.png" alt="">
+                <img src="images/scroll-6.png" alt="">
+                <img src="images/scroll-7.png" alt="">
+                <img src="images/scroll-8.png" alt="">
+                <img src="images/scroll-9.png" alt="">
+                <img src="images/scroll-10.png" alt="">
+                <img src="images/scroll-11.png" alt="">
+                <img src="images/scroll-12.png" alt="">
+                <img src="images/scroll-13.png" alt="">
+                <img src="images/scroll-14.png" alt="">
+                <img src="images/scroll-15.png" alt="">
+            </div>
+            <div class="scrollbar">
+                <img src="images/scroll-1.png" alt="">
+                <img src="images/scroll-2.png" alt="">
+                <img src="images/scroll-3.png" alt="">
+                <img src="images/scroll-4.png" alt="">
+                <img src="images/scroll-5.png" alt="">
+                <img src="images/scroll-6.png" alt="">
+                <img src="images/scroll-7.png" alt="">
+                <img src="images/scroll-8.png" alt="">
+                <img src="images/scroll-9.png" alt="">
+                <img src="images/scroll-10.png" alt="">
+                <img src="images/scroll-11.png" alt="">
+                <img src="images/scroll-12.png" alt="">
+                <img src="images/scroll-13.png" alt="">
+                <img src="images/scroll-14.png" alt="">
+                <img src="images/scroll-15.png" alt="">
+            </div>
+            <div class="scrollbar">
+                <img src="images/scroll-1.png" alt="">
+                <img src="images/scroll-2.png" alt="">
+                <img src="images/scroll-3.png" alt="">
+                <img src="images/scroll-4.png" alt="">
+                <img src="images/scroll-5.png" alt="">
+                <img src="images/scroll-6.png" alt="">
+                <img src="images/scroll-7.png" alt="">
+                <img src="images/scroll-8.png" alt="">
+                <img src="images/scroll-9.png" alt="">
+                <img src="images/scroll-10.png" alt="">
+                <img src="images/scroll-11.png" alt="">
+                <img src="images/scroll-12.png" alt="">
+                <img src="images/scroll-13.png" alt="">
+                <img src="images/scroll-14.png" alt="">
+                <img src="images/scroll-15.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mainfooter">
+        <div class="footer">
+            <div id="follow" class="footer-item">
+                <h2>Follow us</h2>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-linkedin-fill"></i>
+            </div>
+            <div id="populercor" class="footer-item">
+
+                <h2>Our Popular Courses</h2>
+                <div class="populer">
+                    <div class="pc-left">
+                        <p>Java FullStack</p>
+                        <p>Python Full Stack </p>
+                        <p>.Net Full Stack</p>
+                        <p>Mern Stack</p>
+                        <p>Mean Stack</p>
+                        <p>PHP Full Stack</p>
+                        <p>UI/UX Course</p>
+                    </div>
+                    <div class="pc-right">
+                        <p>Data Analytics Using Python</p>
+                        <p>Cyber Security</p>
+                        <p>Ethical Hacking</p>
+                        <p>Aws</p>
+                        <p>Cloud Computing</p>
+                    </div>
+                </div>
+            </div>
+            <div id="topcor" class="footer-item">
+                <h2>Other Top Courses</h2>
+                <div class="populer">
+                    <div class="tc-left">
+                        <p>SAP Hana Fico</p>
+                        <p>Salesforce</p>
+                        <p>CCNA</p>
+                        <p>AutoCAD</p>
+                        <p>Graphic Designing</p>
+                        <p>Multimedia & Animation</p>
+                        <p>Manual + Selenium Testing</p>
+                    </div>
+                    <div class="tc-left">
+
+                        <p>Full Stack QA</p>
+                        <p>React Native</p>
+                        <p>React</p>
+                        <p>Angular</p>
+                        <p>Devops</p>
+                    </div>
+                </div>
+            </div>
+            <div id="policies" class="footer-item">
+                <h2>Policies</h2>
+                <p>Privacy Policy</p>
+                <p>Refund Policy</p>
+                <p>Terms and Conditions</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © 2024 Ducat India, All rights Reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

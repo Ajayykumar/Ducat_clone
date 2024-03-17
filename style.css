@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ad-slider {
+    position: relative;
+}
+
+
+.inputbar {
+
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 10.4%
+}
+
+.inputbar .sldr-input {
+    background-color: #dff1fbcc;
+    width: 85%;
+    height: 100%;
+    border: none;
+    padding: 1rem;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.inputbar .sldr-button {
+    width: 15%;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+
+.bluerow {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+}
+
+.rowelement {
+    display: flex;
+
+    align-items: center;
+    width: 15vw;
+    padding: 0.5rem;
+
+}
+
+.rowelement img {
+    width: 4.5vw;
+    margin: 5px;
+}
+
+.rowelement p {
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.darkbluerow {
+    background-color: #285999;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 4rem;
+}
+
+.darkbluerow input {
+    height: 2.4rem;
+    width: 12rem;
+    border-radius: 0.6rem;
+    border: none;
+    padding: 0.7rem;
+
+}
+
+.darkbluerow .form-control {
+    border-radius: 0.6rem;
+    width: 12rem
+}
+
+.darkbluerow #bluerowbtn {
+    background-color: #ffc107de;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    height: 2.4rem;
+    width: 10rem;
+}
+
+.darkbluerow #bluerowbtn:hover {
+    background-color: #007bff;
+
+}
+
+.explorepro {
+    padding: 3rem 8rem;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.Course-box {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 50px;
+    padding: 3rem 0rem;
+}
+
+
+
+
+.Course-box .box {
+    display: flex;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    width: 23vw;
+    cursor: pointer;
+    height: 14vh;
+    box-shadow: 5px 1px 7px 1px #c6c6c6;
+}
+
+.Course-box .boximg {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Course-box .box img {
+    width: 5.1vw;
+
+}
+
+.Course-box .box .boxpera {
+
+    background-color: #F0F7FE;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Course-box .box .boxpera p {
+    display: flex;
+    align-items: center;
+    margin: 2rem 1rem;
+
+
+}
+
+.quote {
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.quote p {
+    font-size: 1.4rem;
+    color: #212121;
+}
+
+.scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 3rem;
+
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll .scrollbar {
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 15s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.scroll img {
+    width: 5.5rem;
+
+}
+
+.batch {
+    margin: 4rem;
+}
+
+.batch .batchheading {
+    margin-left: 4rem;
+
+}
+
+.batch .batchheading h1 {
+    font-weight: 400;
+}
+
+#cardimgid {
+    background-color: white;
+
+}
+
+#cardcontantid {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 7rem;
+    margin: 0rem 2rem;
+}
+
+.card {
+    width: 16rem;
+    height: 22rem;
+    position: relative;
+    box-shadow: 5px 1px 7px 1px #c6c6c6;
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+
+.card img {
+    width: 5rem;
+}
+
+.card .cardimg {
+    height: 35%;
+    background-color: #e5f4fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag {
+    background-color: #23A6F0;
+    height: 1.2rem;
+    width: fit-content;
+    font-size: 0.8rem;
+    padding: 0rem 0.2rem;
+    color: white;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+
+.card .cardcontant {
+    height: 65%;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+
+
+}
+
+.card .stars i {
+    color: #FFCC00;
+    font-size: 1.3rem;
+    margin-left: -5px;
+}
+
+#cardsid .card .stars i {
+    color: #FFCC00;
+    font-size: 1rem;
+    margin-left: -5px;
+}
+
+.card button {
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 15px;
+    row-gap: 50px;
+    padding: 3rem 8rem;
+    background-color: #F6F6F6;
+}
+
+.f-box {
+    height: 20rem;
+    width: 19rem;
+
+
+}
+
+.f-box h1 {
+    font-size: 1.8rem;
+    color: #1B4584;
+}
+
+.f-box p {
+    font-size: 1.1rem;
+    color: #212121;
+}
+
+.r-box {
+    border-radius: 0.6rem;
+    height: 20vw;
+    width: 20vw;
+    padding: 4rem 2rem;
+    position: relative;
+    box-shadow: 5px 1px 7px 5px #c6c6c6;
+    background-color: white
+}
+
+
+
+.r-box h4 {
+    font-size: 1.2rem;
+}
+
+.r-box p {
+    font-size: 0.8rem;
+}
+
+.r-box svg {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+}
+
+.r-box .profileimg img {
+    width: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -1.3rem;
+    top: 2rem;
+}
+
+.rightcourse h1 {
+    margin: 3rem 10rem;
+}
+
+.placementpartner h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #0C2243;
+    color: #fff;
+    height: 50vh;
+    width: 100%;
+    padding: 4vh 10vw;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+.footer h2 {
+    margin: 2rem 0rem;
+    font-size: 1.5rem;
+}
+
+.footer .footer-item {
+    margin: 2rem;
+    line-height: 0.5rem;
+    justify-content: space-between;
+}
+
+.footer #follow i {
+    font-size: 1.5rem;
+    color: #FFCC00;
+}
+
+.footer .populer {
+    display: flex;
+}
+
+.populer .pc-left {
+    margin-right: 1.5rem;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 4rem;
+    background-color: #0C2243;
+    color: white;
+}
